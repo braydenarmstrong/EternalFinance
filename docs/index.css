@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;  /* Sets a clean, sans-serif font for readability */
+    margin: 0;                       /* Removes default margin from the body */
+    padding: 0;                      /* Removes default padding from the body */
+    background-color: #f4f4f9;       /* Light gray background color for the entire page */
+    color: #333;                     /* Dark gray color for the text */
+}
+
+header {
+    background-color: #4CAF50;       /* Green background for the header */
+    color: white;                    /* White text in the header */
+    text-align: center;              /* Centers all content inside the header */
+    padding: 20px 0;                 /* Adds padding to give the header more space */
+}
+
+header h1 {
+    margin: 10px 0;                  /* Adds some margin around the heading */
+    font-size: 2.5rem;               /* Sets a large font size for the main title */
+}
+
+
+nav {
+    margin-top: 10px;                /* Adds space above the navigation bar */
+}
+
+nav a {
+    color: white;                    /* White color for the navigation links */
+    text-decoration: none;           /* Removes the underline from the links */
+    font-size: 1.1rem;               /* Slightly increases the font size for navigation links */
+    margin: 0 15px;                  /* Adds space between navigation links */
+}
+main {
+    max-width: 1200px;               /* Sets a maximum width to prevent the content from being too wide */
+    margin: 0 auto;                  /* Centers the main content within the page */
+    text-align: center;              /* Centers the text in the main section */
+}
+
+.content p {
+    font-size: 1.25rem;              /* Increases the font size for the main text */
+    margin-bottom: 20px;             /* Adds space below each paragraph */
+    text-align: center;              /* Centers the text */
+}
+
+footer {
+    background-color: #333;          /* Dark gray background for the footer */
+    color: white;                    /* White text color in the footer */
+    text-align: center;              /* Centers the content in the footer */
+    padding: 20px;                   /* Adds space inside the footer */
+    margin-top: 20px;                /* Adds space above the footer to separate it from the main content */
+}
+.image-content {
+    text-align: center;            /* Center-aligns everything in the image-content section */
+    margin: 20px auto;             /* Centers the entire content within the main section */
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;                /* Centers the image horizontally */
+    max-width: 100%;               /* Ensures responsive scaling of the image */
+    height: auto;
+}
+
+.image-paragraph {
+    margin: 15px auto;               /* Centers the paragraph with space from the image */
+    font-size: 1.1rem;               /* Adjusts the font size for readability */
+    max-width: 600px;                /* Limits the paragraph width */
+    line-height: 1.6;                /* Increases line spacing for readability */
+    text-align: left;                /* Left-aligns text for a natural paragraph style */
+}
+
+.chart-image {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.headshot {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
